@@ -17,7 +17,7 @@ pdf = FPDF()
 pdf.add_page()
 
 # set style and size of font for the title
-pdf.set_font("comicsans", style='B', size=15)
+pdf.set_font("Ariel", style='B', size=15)
 
 # create title
 pdf.cell(200, 10, txt="Characterization report for chip " + chip_id,
